@@ -3,20 +3,25 @@
   "version": "1.0.0",
   "description": "All Ad network fore react native",
   "main": "src/index",
-  "author": "Parth Pandya",
+  "author": "Parth Pandya <parthindia47@gmail.com>",
   "license": "MIT",
   "scripts": {
     "test": "jest",
     "typescript": "tsc --noEmit",
-    "prepare": "bob build",
     "release": "release-it",
     "example": "yarn --cwd example",
     "pods": "cd example && pod-install --quiet",
     "bootstrap": "yarn example && yarn && yarn pods"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parthindia47/react-native-mobile-ads-all.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/parthindia47"
+  },
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
-    "@react-native-community/bob": "^0.16.2",
     "@react-native-community/eslint-config": "^2.0.0",
     "@release-it/conventional-changelog": "^1.1.4",
     "@types/jest": "^26.0.0",
