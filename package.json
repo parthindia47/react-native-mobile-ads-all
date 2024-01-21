@@ -17,9 +17,6 @@
     "type": "git",
     "url": "git+https://github.com/parthindia47/react-native-mobile-ads-all.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/parthindia47"
-  },
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@react-native-community/eslint-config": "^2.0.0",
